@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:meraljo.com)",
+      "Bash(mkdir -p \"C:/Work/MeralWebsite/css\")",
+      "Bash(mkdir -p \"C:/Work/MeralWebsite/js\")",
+      "Bash(mkdir -p \"C:/Work/MeralWebsite/images\")",
+      "Bash(npm create:*)",
+      "Bash(cd:*)",
+      "Bash(cp -r temp-react/* .)",
+      "Bash(cp temp-react/.gitignore .)",
+      "Bash(rm -rf temp-react)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(curl:*)",
+      "Bash(npx vite:*)",
+      "Bash(gh auth:*)",
+      "Bash(where gh:*)",
+      "Bash(git:*)",
+      "Bash(winget install:*)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")"
+    ]
+  }
+}

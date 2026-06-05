@@ -1,0 +1,42 @@
+:root {
+    --primary: #09aeb8;
+    --primary-light: #2cc5cf;
+    --primary-dark: #078a92;
+    --accent: #ffd763;
+    --accent-light: #ffe08a;
+    --bg-dark: #060d1a;
+    --bg-section: #0a1628;
+    --bg-card: #0f1d35;
+    --bg-card-hover: #142444;
+    --text-primary: #ffffff;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --border: rgba(9, 174, 184, 0.15);
+    --border-light: rgba(255, 255, 255, 0.08);
+    --glow: rgba(9, 174, 184, 0.4);
+    --radius: 12px;
+    --radius-lg: 20px;
+    --radius-xl: 28px;
+    --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    --font-main: 'Open Sans', sans-serif;
+    --font-heading: 'Josefin Sans', sans-serif;
+}
+
+[data-theme="light"] {
+    --bg-dark: #f8fafc;
+    --bg-section: #ffffff;
+    --bg-card: #f1f5f9;
+    --bg-card-hover: #e2e8f0;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #64748b;
+    --border: rgba(9, 174, 184, 0.2);
+    --border-light: rgba(0, 0, 0, 0.08);
+    --glow: rgba(9, 174, 184, 0.3);
+}
+
+:root[lang="ar"] {
+    --font-main: 'Cairo', 'Open Sans', sans-serif;
+    --font-heading: 'Cairo', 'Josefin Sans', sans-serif;
+}

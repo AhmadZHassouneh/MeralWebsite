@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Red arrow/checkmark shape - Meral logo -->
+  <g transform="translate(2, 4)">
+    <!-- Main red arrow pointing down-left -->
+    <polygon points="30,2 42,2 18,50 6,50" fill="#E31E24"/>
+    <!-- Arrow head pointing right -->
+    <polygon points="6,50 18,50 18,38 2,54 6,50" fill="#E31E24"/>
+    <!-- Upper red bar -->
+    <polygon points="30,2 58,2 52,14 24,14" fill="#E31E24"/>
+    <!-- Tick/check portion -->
+    <polygon points="6,36 18,50 6,50" fill="#C41118"/>
+    <!-- Horizontal black bar (underline) -->
+    <rect x="4" y="52" width="54" height="5" rx="1" fill="#1A1A1A"/>
+  </g>
+</svg>
