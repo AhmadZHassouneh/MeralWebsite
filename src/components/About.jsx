@@ -19,7 +19,7 @@ export default function About() {
                         <RevealWrapper direction="left">
                             <div className="about-image-wrapper">
                                 <div className="about-image">
-                                    <img src="/images/weighbridge.jpg" alt="Meral Weighbridge" />
+                                    <img src={`${import.meta.env.BASE_URL}images/weighbridge.jpg`} alt="Meral Weighbridge" />
                                 </div>
                                 <div className="about-experience">
                                     <span className="exp-number">{t.about.expYears}</span>

@@ -3,10 +3,10 @@ import { useLang } from '../contexts/LanguageContext';
 import './Partners.css';
 
 const partners = [
-    { name: 'SENSOCAR', country: 'Spain', logo: '/images/sensocar.png' },
-    { name: 'FLINTEC', country: 'Sweden', logo: '/images/flintec.png' },
-    { name: 'METTLER TOLEDO', country: 'Switzerland', logo: '/images/mettler-toledo.jpg' },
-    { name: 'PRECIA MOLEN', country: 'France', logo: '/images/precia-molen.jpg' },
+    { name: 'SENSOCAR', country: 'Spain', logo: `${import.meta.env.BASE_URL}images/sensocar.png` },
+    { name: 'FLINTEC', country: 'Sweden', logo: `${import.meta.env.BASE_URL}images/flintec.png` },
+    { name: 'METTLER TOLEDO', country: 'Switzerland', logo: `${import.meta.env.BASE_URL}images/mettler-toledo.jpg` },
+    { name: 'PRECIA MOLEN', country: 'France', logo: `${import.meta.env.BASE_URL}images/precia-molen.jpg` },
 ];
 
 export default function Partners() {

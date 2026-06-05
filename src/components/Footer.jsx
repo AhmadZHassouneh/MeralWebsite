@@ -3,7 +3,7 @@ import './Footer.css';
 
 export default function Footer() {
     const { lang, t } = useLang();
-    const logoSrc = lang === 'ar' ? '/images/logo-ar.png' : '/images/logo-en.png';
+    const logoSrc = lang === 'ar' ? `${import.meta.env.BASE_URL}images/logo-ar.png` : `${import.meta.env.BASE_URL}images/logo-en.png`;
 
     function scrollTo(e, selector) {
         e.preventDefault();

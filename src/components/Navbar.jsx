@@ -18,7 +18,7 @@ export default function Navbar() {
         { href: '#contact', label: t.nav.contact },
     ];
 
-    const logoSrc = lang === 'ar' ? '/images/logo-ar.png' : '/images/logo-en.png';
+    const logoSrc = lang === 'ar' ? `${import.meta.env.BASE_URL}images/logo-ar.png` : `${import.meta.env.BASE_URL}images/logo-en.png`;
 
     useEffect(() => {
         function handleScroll() {
